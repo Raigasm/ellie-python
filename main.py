@@ -1,15 +1,8 @@
-import kivy
-kivy.require('1.0.6') # replace with your current kivy version !
+# import the Tkinkter module
+import tkinter as tkinter
+# create a new window
 
-from kivy.app import App
-from kivy.uix.label import Label
+window = tkinter.Tk()
 
-
-class MyApp(App):
-
-    def build(self):
-        return Label(text='Hello world')
-
-
-if __name__ == '__main__':
-    MyApp().run()
+# draw the window and start the application
+window.mainloop()
